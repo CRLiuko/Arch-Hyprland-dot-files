@@ -4,9 +4,7 @@ If you happen to like these and decide to use them anyways, I would recommend no
 
 # Dependencies
 * rofi
-* dunst
 * waybar
-* udiskie
 * swww
 * wlogout
 * trizen
