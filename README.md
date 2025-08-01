@@ -10,8 +10,7 @@ If you happen to like these and decide to use them anyways, I would recommend no
 * swww
 * wlogout
 * trizen
-* grimshot
-
+  
 There are defaults such as the browser being set to Librewolf and various others that you don't *need*, but not changing these or not installing can cause issues, so I would recommend reading what you're downloading.
 
 # Installation
