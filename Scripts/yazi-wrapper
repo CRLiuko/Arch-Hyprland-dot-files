@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export EDITOR=nvim
+export VISUAL=nvim
+source ~/.bashrc 2>/dev/null || true
+exec yazi "$@"

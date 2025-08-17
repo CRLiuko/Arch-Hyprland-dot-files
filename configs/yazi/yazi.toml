@@ -1,0 +1,18 @@
+show_symlink = true
+sort_dir_first = true
+sort_by = "size"
+linemode = "size"
+
+#open
+
+rules = [
+  { mime = "video/*", use = [ "play", "reveal" ] }
+]
+
+play = [
+  { run = 'vlc "$@"', desc = "VLC", orphan = true }
+]
+
+edit = [
+  { run = 'nvim "$1"', block = true, for = "unix" }
+]
