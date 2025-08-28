@@ -3,7 +3,6 @@
 #
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
-. "$HOME/.cargo/env"
 
-
-. "$HOME/.local/bin/env"
+export PATH=$PATH:/home/aidan/.spicetify
+export PATH=$PATH:/opt/

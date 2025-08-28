@@ -16,8 +16,6 @@ alias grep='grep --color=auto'
 alias neofetch='fastfetch'
 PS1='[\[\033[0;36m\]\A \[\033[0;34m\]\[\033[0;31m\]\u\[\033[0;35m\]@\[\033[0;34m\]\h \[\033[0;32m\]\W\[\033[0;31m\]$(parse_git_branch)\[\033[0m\]]\[\033[1;33m\]\$\[\033[0m\] '
 
-. "$HOME/.cargo/env"
-
-. "$HOME/.local/bin/env"
-
 eval "$(thefuck --alias)"
+
+export PATH=$PATH:/home/aidan/.spicetify

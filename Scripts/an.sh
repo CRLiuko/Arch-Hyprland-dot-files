@@ -1,40 +1,6 @@
 #!/bin/bash
-DIR="${HOME}/Pictures"
-picture_array=(
-  "${DIR}/abandoned-trainstation.jpg"
-  "${DIR}/dark-star.jpg"
-  "${DIR}/lit-up-sky.png"
-  "${DIR}/soaring-off.jpg"
-  "${DIR}/abstract-swirls.jpg"
-  "${DIR}/dominik-mayer-26.jpg"
-  "${DIR}/nature-valley-1.jpg"
-  "${DIR}/south-pole.jpg"
-  "${DIR}/artificial-valley.jpg"
-  "${DIR}/dominik-mayer-9.jpg"
-  "${DIR}/pixel-galaxy.png"
-  "${DIR}/sunken-tower.png"
-  "${DIR}/atlantis.jpg"
-  "${DIR}/eclipse.jpg"
-  "${DIR}/platform.jpg"
-  "${DIR}/sunset.jpg"
-  "${DIR}/black-hole.png"
-  "${DIR}/flower.jpg"
-  "${DIR}/flower.jpg"
-  "${DIR}/bsod.png"
-  "${DIR}/flying-comets-clouds.jpg"
-  "${DIR}/ruins.jpg"
-  "${DIR}/waves.png"
-  "${DIR}/bunnies-road.png"
-  "${DIR}/galaxy-waves.jpg"
-  "${DIR}/clouds-5.jpg"
-  "${DIR}/girl-stars.png"
-  "${DIR}/signal-enthusiast.jpg"
-  "${DIR}/dark-forest.jpg"
-  "${DIR}/hollow.jpg"
-  "${DIR}/snowflakes.jpg"
-  "${DIR}/gentlemen-sunset.png"
-  "${DIR}/pompeii.png"
-)
+DIR="${HOME}/Wallpaper"
+picture_array=("${DIR}/"*)
 picture_array_length=${#picture_array[@]}
 random_number=$((RANDOM % ${picture_array_length}))
 swww img ${picture_array[random_number]}
