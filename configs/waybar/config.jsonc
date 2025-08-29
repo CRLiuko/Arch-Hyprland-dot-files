@@ -32,7 +32,7 @@
 
   "custom/menu": {
     "format": "<span font='18px'>  </span>",
-    "on-click": "~/.config/Scripts/rofi.sh",
+    "on-click": "~/.config/Scripts/rofi",
     "tooltip": false
   },
 
@@ -42,9 +42,9 @@
       "escape": true,
       "return-type": "json",
 
-      "exec": "~/.config/Scripts/updates.sh",
+      "exec": "~/.config/Scripts/updates",
       "restart-interval": 60,
-      "on-click": "~/.config/Scripts/upgrade.sh"
+      "on-click": "~/.config/Scripts/upgrade"
   },
 
     // Modules configuration
