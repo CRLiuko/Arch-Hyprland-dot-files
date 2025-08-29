@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "swaylock -efi $(cat ~/.config/hypr/wallpaper.txt)",
+    "action" : "hyprlock",
     "text" : "Lock",
     "keybind" : "l"
 }
