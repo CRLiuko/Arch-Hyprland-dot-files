@@ -105,7 +105,7 @@
 
     // Workspace
     "hyprland/workspaces": {
-	"format": "{name} {windows}",
+	"format": "{name}",
 	"tooltip": false
     },
 
