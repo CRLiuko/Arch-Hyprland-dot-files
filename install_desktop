@@ -1,4 +1,3 @@
 #!/bin/bash
 
 cp -bvr ./desktop_configs/* ./Scripts ~/.config/
-cp -bvr ./bash/* ~/

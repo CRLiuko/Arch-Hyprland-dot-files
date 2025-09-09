@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cp -bvr ./laptop_configs/* ./Scripts ~/.config/
